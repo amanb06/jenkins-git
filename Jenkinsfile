@@ -8,7 +8,6 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                     netstat -tunlp
-                    ping www.pornhub.com
                     whoami
                 '''
             }
