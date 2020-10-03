@@ -7,6 +7,9 @@ pipeline {
                 sh '''
                     echo "Multiline shell steps works too"
                     ls -lah
+                    netstat -tunlp
+                    id
+                    whoami
                 '''
             }
         }
